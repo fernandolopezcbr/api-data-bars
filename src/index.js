@@ -9,7 +9,7 @@ antes que sus controladores, disponible en la propiedad req.body.
  */
 const bodyParser = require('body-parser');
 const app = express();
-const port = 3003;
+const port = process.env.PORT || 3003;
 
 
 //Archivos estáticos:
